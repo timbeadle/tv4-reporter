@@ -6,7 +6,7 @@
 
 This module is used by various dependants to render `tv4` validation result objects in a compact but highly readable (and optionally colourful) format.
 
-The module is tuned for both CLI output (optionally using ANSI color codes) as well as plain-text or even pre-formatted HTML/CSS rendering. The actual output and colonisers are extendible, with some common ones built-in.
+The module is tuned for both CLI output as well as plain-text or even pre-formatted HTML/CSS rendering. The actual output and colonisers are extendible, with some common ones built-in.
 
 **Note:** at this point this is *not* a validator or 'test runner', nor is it a finished application. It is a library to use as dependency. Use plain `tv4` and pass the result(s) to one of `tv4-reproters` helpers, or use one of the many tv4 wrappers for convenience (some are linked below). 
 
@@ -21,9 +21,9 @@ The module is tuned for both CLI output (optionally using ANSI color codes) as w
 
 ## Examples
 
-Bulk reporter with simple single error:
+Bulk reporter with single error:
 
-[![WebStorm example](https://github.com/Bartvds/master/tv4-reporter/media/webstorm-example-01.png.png)](https://github.com/Bartvds/master/tv4-reporter/media/webstorm-example-01.png.png)
+[![WebStorm example](https://raw.github.com/Bartvds/tv4-reporter/master/media/webstorm-example-01.png)](https://raw.github.com/Bartvds/tv4-reporter/master/media/webstorm-example-01.png)
 
 ## Usage
 
