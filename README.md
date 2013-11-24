@@ -6,9 +6,9 @@
 
 This module is used by various dependants to render `tv4` validation result objects in a compact but highly readable (and optionally colourful) format.
 
-The module is tuned for both CLI output as well as plain-text or even pre-formatted HTML/CSS rendering. The actual output and colonisers are extendible, with some common ones built-in.
+The module is tuned for both CLI output as well as plain-text or even pre-formatted HTML/CSS rendering. The actual output and colorisers are extendible, with some common ones built-in.
 
-**Note:** at this point this is *not* a validator or 'test runner', nor is it a finished application. It is a library to use as dependency. Use plain `tv4` and pass the result(s) to one of `tv4-reproters` helpers, or use one of the many tv4 wrappers for convenience (some are linked below). 
+**Note:** at this point this is *not* a validator or 'test runner', nor is it a finished application. It is a library to use as dependency. Use plain `tv4` and pass the result(s) to one of `tv4-reporters` helpers, or use one of the implementing tv4 wrappers for convenience (some linked below). 
 
 ## Features
 
@@ -24,6 +24,14 @@ The module is tuned for both CLI output as well as plain-text or even pre-format
 Bulk reporter with single error:
 
 [![WebStorm example](https://raw.github.com/Bartvds/tv4-reporter/master/media/webstorm-example-01.png)](https://raw.github.com/Bartvds/tv4-reporter/master/media/webstorm-example-01.png)
+
+## Installation
+
+Not yet published to package managers. Link to a github commit if you feel adventurous.
+
+```shell
+$ npm install tv4-reporter --save-dev
+```
 
 ## Usage
 
@@ -75,7 +83,7 @@ See the `Gruntfile.js` for additional commands.
 
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
-Note this is an opinionated module: improvements are very welcome, but please create a [ticket](https://github.com/Bartvds/tv4-reporter/issues) to discuss your case first. Pull requests for bug fixes are of course always welcome. 
+*Note:* this is an opinionated module: please create a [ticket](https://github.com/Bartvds/tv4-reporter/issues) to discuss big changes. Pull requests for bug fixes are of course always welcome. 
 
 ## License
 
