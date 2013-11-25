@@ -83,7 +83,7 @@ See the `Gruntfile.js` for additional commands.
 
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
-*Note:* this is an opinionated module: please create a [ticket](https://github.com/Bartvds/tv4-reporter/issues) to discuss big changes. Pull requests for bug fixes are of course always welcome. 
+*Note:* this is an opinionated module: please create a [ticket](https://github.com/Bartvds/tv4-reporter/issues) to discuss any big ideas. Pull requests for bug fixes are of course always welcome. 
 
 ## License
 
