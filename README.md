@@ -21,6 +21,10 @@ The module is tuned for both CLI output as well as plain-text or even pre-format
 
 ## Examples
 
+(possibly outdated)
+
+Bulk reporter in grunt-tv4 prototype [on travis-ci](https://travis-ci.org/Bartvds/grunt-tv4/jobs/14469941#L406)
+
 Bulk reporter with single error:
 
 [![WebStorm example](https://raw.github.com/Bartvds/tv4-reporter/master/media/webstorm-example-01.png)](https://raw.github.com/Bartvds/tv4-reporter/master/media/webstorm-example-01.png)
