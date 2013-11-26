@@ -40,6 +40,8 @@
     "tv4": "~1.0.11",
     "grunt-cli": "~0.1",
     "grunt": "~0.4.1",
+    "ministyle": "git://github.com/Bartvds/miniwrite/#master",
+    "miniwrite": "git://github.com/Bartvds/miniwrite/#master",
     "grunt-contrib-jshint": "~0.7.2",
     "jshint-path-reporter": "~0.1.3"
   }
