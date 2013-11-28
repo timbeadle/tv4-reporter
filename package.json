@@ -1,7 +1,7 @@
 {
   "name": "tv4-reporter",
   "description": "Report Tiny Validator tv4 results in usable formats",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/Bartvds/tv4-reporter",
   "author": {
     "name": "Bart van der Schoor",
@@ -46,6 +46,7 @@
     "jshint-path-reporter": "~0.1.3"
   },
   "perDependencies": {
+    "tv4": "~1.0.11",
     "ministyle": "~0.1.0",
     "miniwrite": "~0.1.0"
   }
