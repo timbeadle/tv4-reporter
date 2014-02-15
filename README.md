@@ -93,7 +93,8 @@ Report output and styling done via extensible mini-api's:
 
 ## History
 
-* 0.0.1 - Extracted formatting code from [grunt-tv4](https://github.com/Bartvds/grunt-tv4) and [chai-json-schema](https://github.com/Bartvds/chai-json-schema)
+* <= 0.0.4 - Many fixes and tweaks.
+* 0.0.1 - Extracted formatting code from [grunt-tv4](https://github.com/Bartvds/grunt-tv4) and [chai-json-schema](https://github.com/Bartvds/chai-json-schema).
 
 ## Build
 
