@@ -34,20 +34,20 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "ministyle": "~0.1.0",
-    "miniwrite": "~0.1.0",
-    "jsonpointer.js": "0.3.0"
-  },
-  "devDependencies": {
-    "tv4": "~1.0.11",
-    "grunt-cli": "~0.1",
-    "grunt": "~0.4.1",
-    "grunt-contrib-jshint": "~0.7.2",
-    "jshint-path-reporter": "~0.1.3"
-  },
-  "perDependencies": {
-    "tv4": "~1.0.11",
+    "jsonpointer.js": "0.3.0",
     "ministyle": "~0.1.0",
     "miniwrite": "~0.1.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-cli": "~0.1",
+    "grunt-contrib-jshint": "~0.7.2",
+    "jshint-path-reporter": "~0.1.3",
+    "tv4": "~1.0.11"
+  },
+  "peerDependencies": {
+    "ministyle": "~0.1.0",
+    "miniwrite": "~0.1.0",
+    "tv4": "~1.0.11"
   }
 }
