@@ -40,7 +40,6 @@
   },
   "devDependencies": {
     "grunt": "~0.4.1",
-    "grunt-cli": "~0.1",
     "grunt-contrib-jshint": "~0.7.2",
     "grunt-release-it": "^1.0.1",
     "jshint-path-reporter": "~0.1.3",
