@@ -1,12 +1,14 @@
 # tv4-reporter
 
-[![Build Status](https://secure.travis-ci.org/timbeadle/tv4-reporter.png?branch=master)](http://travis-ci.org/timbeadle/tv4-reporter)
+[![npm version](https://img.shields.io/npm/v/tv4-reporter.svg)](https://www.npmjs.com/package/tv4-reporter)
+[![Downloads/month](https://img.shields.io/npm/dm/tv4-reporter.svg)](https://www.npmjs.com/package/tv4-reporter)
+[![Build Status](https://travis-ci.org/timbeadle/tv4-reporter.svg?branch=master)](https://travis-ci.org/timbeadle/tv4-reporter)
 [![Dependency Status](https://david-dm.org/timbeadle/tv4-reporter.svg)](https://david-dm.org/timbeadle/tv4-reporter)
-[![NPM version](https://badge.fury.io/js/tv4-reporter.png)](http://badge.fury.io/js/tv4-reporter)
+[![Code Climate](https://codeclimate.com/github/timbeadle/tv4-reporter/badges/gpa.svg)](https://codeclimate.com/github/timbeadle/tv4-reporter)
 
 > Reporters to display usable [Tiny Validator tv4](https://github.com/geraintluff/tv4) output of [json-schema](http://jsonschema.org) validation.
 
-This module is used by various dependants to render `tv4` validation result objects in a compact but highly readable (and possibly colourful) format. Functionality is tuned for both CLI output as well as plain-text or pre-formatted HTML/CSS.
+This module is used by various dependents to render `tv4` validation result objects in a compact but highly readable (and possibly colourful) format. Functionality is tuned for both CLI output as well as plain-text or pre-formatted HTML/CSS.
 
 **Note:** at this point this is *not* a 'validator' or 'test runner', nor is it a finished application. It is a library to use as dependency in `tv4` based testers. Use plain `tv4` and pass the result(s) to one of `tv4-reporters` helpers. If you are looking for a validator see one of the implementing tv4 wrappers for convenience (some linked below).
 
@@ -81,7 +83,7 @@ Report output and styling done via extensible mini-api's:
 * [ministyle](https://github.com/Bartvds/ministyle) (bundled with plain, ansi, html/css etc + utils)
 * [miniwrite](https://github.com/Bartvds/miniwrite) (bundled with streaming console.log, line buffer, node-streams etc + utils)
 
-## Known dependants
+## Known dependents
 
 * [grunt-tv4](https://github.com/Bartvds/grunt-tv4) (bulk validator with http lookup for grunt)
 * ~~[chai-json-schema](https://github.com/Bartvds/chai-json-schema) (assertion wrappers)~~ (update in progress)
@@ -95,6 +97,13 @@ Report output and styling done via extensible mini-api's:
 
 ## History
 
+* 0.1.1
+	* Add Code Climate & Download/month badges and other README tweaks
+* 0.1.0
+	* Remove node 0.8 support
+	* Various fixes ([828bb5e](https://github.com/timbeadle/tv4-reporter/commit/828bb5edebd67addee859506a92a60e550526b8a))
+	* Update to grunt v1
+	* Project ownership transferred to Tim Beadle (https://github.com/timbeadle)
 * <= 0.0.4 - Many fixes and tweaks.
 * 0.0.1 - Extracted formatting code from [grunt-tv4](https://github.com/Bartvds/grunt-tv4) and [chai-json-schema](https://github.com/Bartvds/chai-json-schema).
 
