@@ -12,6 +12,7 @@ module.exports = function (grunt) {
 	/*jshint unused:false*/
 
 	grunt.loadNpmTasks('grunt-contrib-jshint');
+	grunt.loadNpmTasks('grunt-release-it');
 
 	var util = require('util');
 
