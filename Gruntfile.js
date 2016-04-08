@@ -35,6 +35,15 @@ module.exports = function (grunt) {
 				'lib/**/*.js',
 				'tasks/**/*.js'
 			]
+		},
+		'release-it': {
+			options: {
+				pkgFiles: ['package.json'],
+				commitMessage: 'Release %s',
+				tagName: '%s',
+				tagAnnotation: 'Release %s',
+				buildCommand: false
+			}
 		}
 	});
 
