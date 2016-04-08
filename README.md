@@ -1,6 +1,6 @@
 # tv4-reporter
 
-[![Build Status](https://secure.travis-ci.org/Bartvds/tv4-reporter.png?branch=master)](http://travis-ci.org/Bartvds/tv4-reporter) [![Dependency Status](https://gemnasium.com/Bartvds/tv4-reporter.png)](https://gemnasium.com/Bartvds/tv4-reporter) [![NPM version](https://badge.fury.io/js/tv4-reporter.png)](http://badge.fury.io/js/tv4-reporter)
+[![Build Status](https://secure.travis-ci.org/timbeadle/tv4-reporter.png?branch=master)](http://travis-ci.org/timbeadle/tv4-reporter) [![Dependency Status](https://gemnasium.com/timbeadle/tv4-reporter.png)](https://gemnasium.com/timbeadle/tv4-reporter) [![NPM version](https://badge.fury.io/js/tv4-reporter.png)](http://badge.fury.io/js/tv4-reporter)
 
 > Reporters to display usable [Tiny Validator tv4](https://github.com/geraintluff/tv4) output of [json-schema](http://jsonschema.org) validation.
  
@@ -24,7 +24,7 @@ This module is used by various dependants to render `tv4` validation result obje
 1. Examples of many different kind of errors in [this Travis-Ci build](https://travis-ci.org/Bartvds/grunt-tv4/jobs/14469941).
 1. Bulk reporter with single error:
  
-  [![WebStorm example](https://raw.github.com/Bartvds/tv4-reporter/master/media/webstorm-example-01.png)](https://raw.github.com/Bartvds/tv4-reporter/master/media/webstorm-example-01.png)
+  [![WebStorm example](https://raw.github.com/timbeadle/tv4-reporter/master/media/webstorm-example-01.png)](https://raw.github.com/timbeadle/tv4-reporter/master/media/webstorm-example-01.png)
 
 ## Installation
 
@@ -114,7 +114,7 @@ See the `Gruntfile.js` for additional commands.
 
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
-*Note:* this is an opinionated module: please create a [ticket](https://github.com/Bartvds/tv4-reporter/issues) to discuss any big ideas. Pull requests for bug fixes are of course always welcome. 
+*Note:* this is an opinionated module: please create a [ticket](https://github.com/timbeadle/tv4-reporter/issues) to discuss any big ideas. Pull requests for bug fixes are of course always welcome. 
 
 ## License
 
@@ -123,5 +123,5 @@ Copyright (c) 2013 Bart van der Schoor
 Licensed under the MIT license.
 
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Bartvds/tv4-reporter/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/timbeadle/tv4-reporter/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
