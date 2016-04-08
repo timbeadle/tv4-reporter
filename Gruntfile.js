@@ -12,6 +12,7 @@ module.exports = function (grunt) {
 	/*jshint unused:false*/
 
 	grunt.loadNpmTasks('grunt-contrib-jshint');
+	grunt.loadNpmTasks('grunt-release-it');
 
 	var util = require('util');
 
@@ -35,6 +36,15 @@ module.exports = function (grunt) {
 				'lib/**/*.js',
 				'tasks/**/*.js'
 			]
+		},
+		'release-it': {
+			options: {
+				pkgFiles: ['package.json'],
+				commitMessage: 'Release %s',
+				tagName: '%s',
+				tagAnnotation: 'Release %s',
+				buildCommand: false
+			}
 		}
 	});
 
