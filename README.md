@@ -1,12 +1,14 @@
 # tv4-reporter
 
-[![Build Status](https://secure.travis-ci.org/timbeadle/tv4-reporter.png?branch=master)](http://travis-ci.org/timbeadle/tv4-reporter) [![Dependency Status](https://gemnasium.com/timbeadle/tv4-reporter.png)](https://gemnasium.com/timbeadle/tv4-reporter) [![NPM version](https://badge.fury.io/js/tv4-reporter.png)](http://badge.fury.io/js/tv4-reporter)
+[![Build Status](https://secure.travis-ci.org/timbeadle/tv4-reporter.png?branch=master)](http://travis-ci.org/timbeadle/tv4-reporter)
+[![Dependency Status](https://david-dm.org/timbeadle/tv4-reporter.svg)](https://david-dm.org/timbeadle/tv4-reporter)
+[![NPM version](https://badge.fury.io/js/tv4-reporter.png)](http://badge.fury.io/js/tv4-reporter)
 
 > Reporters to display usable [Tiny Validator tv4](https://github.com/geraintluff/tv4) output of [json-schema](http://jsonschema.org) validation.
- 
-This module is used by various dependants to render `tv4` validation result objects in a compact but highly readable (and possibly colourful) format. Functionality is tuned for both CLI output as well as plain-text or pre-formatted HTML/CSS. 
 
-**Note:** at this point this is *not* a 'validator' or 'test runner', nor is it a finished application. It is a library to use as dependency in `tv4` based testers. Use plain `tv4` and pass the result(s) to one of `tv4-reporters` helpers. If you are looking for a validator see one of the implementing tv4 wrappers for convenience (some linked below). 
+This module is used by various dependants to render `tv4` validation result objects in a compact but highly readable (and possibly colourful) format. Functionality is tuned for both CLI output as well as plain-text or pre-formatted HTML/CSS.
+
+**Note:** at this point this is *not* a 'validator' or 'test runner', nor is it a finished application. It is a library to use as dependency in `tv4` based testers. Use plain `tv4` and pass the result(s) to one of `tv4-reporters` helpers. If you are looking for a validator see one of the implementing tv4 wrappers for convenience (some linked below).
 
 ## Features
 
@@ -23,7 +25,7 @@ This module is used by various dependants to render `tv4` validation result obje
 
 1. Examples of many different kind of errors in [this Travis-Ci build](https://travis-ci.org/Bartvds/grunt-tv4/jobs/14469941).
 1. Bulk reporter with single error:
- 
+
   [![WebStorm example](https://raw.github.com/timbeadle/tv4-reporter/master/media/webstorm-example-01.png)](https://raw.github.com/timbeadle/tv4-reporter/master/media/webstorm-example-01.png)
 
 ## Installation
@@ -34,7 +36,7 @@ $ npm install tv4-reporter --save-dev
 
 ## Usage
 
-Still very-much in flux so possibly outdated examples. 
+Still very-much in flux so possibly outdated examples.
 
 Minimal use case (likely this is spread over the implementing application):
 ````js
@@ -49,13 +51,13 @@ var result = tv4.validateMultiple(myValue, mySchema);
 if (!result.valid || result.missing.length > 0) {
 	// get data object (might get these in bulk/async from somewhere)
 	var res = reporter.createTest(mySchema, myValue, 'my special test', true);
-	
+
 	// report error
 	reporter.reportResult(res);
 
 	// if you have a many results you can use bulk to print nicely with summaries
 	reporter.reportBulk([res, res2, res3], [pass1, pass2]);
-	
+
 	// only totals
 	reporter.reportTotals(3, 4);
 }
@@ -75,7 +77,7 @@ For more API surface like (partial) reporter and various helpers see the exports
 ## Output
 
 Report output and styling done via extensible mini-api's:
- 
+
 * [ministyle](https://github.com/Bartvds/ministyle) (bundled with plain, ansi, html/css etc + utils)
 * [miniwrite](https://github.com/Bartvds/miniwrite) (bundled with streaming console.log, line buffer, node-streams etc + utils)
 
@@ -114,7 +116,7 @@ See the `Gruntfile.js` for additional commands.
 
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
-*Note:* this is an opinionated module: please create a [ticket](https://github.com/timbeadle/tv4-reporter/issues) to discuss any big ideas. Pull requests for bug fixes are of course always welcome. 
+*Note:* this is an opinionated module: please create a [ticket](https://github.com/timbeadle/tv4-reporter/issues) to discuss any big ideas. Pull requests for bug fixes are of course always welcome.
 
 ## License
 
@@ -124,4 +126,3 @@ Licensed under the MIT license.
 
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/timbeadle/tv4-reporter/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
