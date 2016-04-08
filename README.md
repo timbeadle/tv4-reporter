@@ -4,6 +4,7 @@
 [![Downloads/month](https://img.shields.io/npm/dm/tv4-reporter.svg)](https://www.npmjs.com/package/tv4-reporter)
 [![Build Status](https://travis-ci.org/timbeadle/tv4-reporter.svg?branch=master)](https://travis-ci.org/timbeadle/tv4-reporter)
 [![Dependency Status](https://david-dm.org/timbeadle/tv4-reporter.svg)](https://david-dm.org/timbeadle/tv4-reporter)
+[![devDependency Status](https://david-dm.org/timbeadle/tv4-reporter/dev-status.svg)](https://david-dm.org/timbeadle/tv4-reporter#info=devDependencies)
 [![Code Climate](https://codeclimate.com/github/timbeadle/tv4-reporter/badges/gpa.svg)](https://codeclimate.com/github/timbeadle/tv4-reporter)
 
 > Reporters to display usable [Tiny Validator tv4](https://github.com/geraintluff/tv4) output of [json-schema](http://jsonschema.org) validation.
