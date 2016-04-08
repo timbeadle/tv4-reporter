@@ -86,7 +86,7 @@ Report output and styling done via extensible mini-api's:
 
 ## Known dependents
 
-* [grunt-tv4](https://github.com/Bartvds/grunt-tv4) (bulk validator with http lookup for grunt)
+* [grunt-tv4](https://github.com/timbeadle/grunt-tv4) (bulk validator with http lookup for grunt)
 * ~~[chai-json-schema](https://github.com/Bartvds/chai-json-schema) (assertion wrappers)~~ (update in progress)
 * (planned) a commandline validator (cued for extraction from `grunt-tv4`)
 * (planned) a json-schema assert()-ion (chai-json-schema without chai)
@@ -106,7 +106,7 @@ Report output and styling done via extensible mini-api's:
 	* Update to grunt v1
 	* Project ownership transferred to Tim Beadle (https://github.com/timbeadle)
 * <= 0.0.4 - Many fixes and tweaks.
-* 0.0.1 - Extracted formatting code from [grunt-tv4](https://github.com/Bartvds/grunt-tv4) and [chai-json-schema](https://github.com/Bartvds/chai-json-schema).
+* 0.0.1 - Extracted formatting code from [grunt-tv4](https://github.com/timbeadle/grunt-tv4) and [chai-json-schema](https://github.com/Bartvds/chai-json-schema).
 
 ## Build
 
