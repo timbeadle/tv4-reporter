@@ -9,7 +9,7 @@
 'use strict';
 
 module.exports = function (grunt) {
-	/*eslint no-unused-vars:0 */
+	/*eslint global-require:0 */
 
 	require('load-grunt-tasks')(grunt);
 
