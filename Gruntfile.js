@@ -9,10 +9,9 @@
 'use strict';
 
 module.exports = function (grunt) {
-	/*jshint unused:false*/
+	/*eslint no-unused-vars:0 */
 
-	grunt.loadNpmTasks('grunt-contrib-jshint');
-	grunt.loadNpmTasks('grunt-release-it');
+	require('load-grunt-tasks')(grunt);
 
 	var util = require('util');
 
@@ -27,11 +26,11 @@ module.exports = function (grunt) {
 	};
 
 	grunt.initConfig({
-		jshint: {
-			options: grunt.util._.defaults(grunt.file.readJSON('.jshintrc'), {
-				reporter: './node_modules/jshint-path-reporter'
-			}),
-			all: [
+		eslint: {
+			options: {
+				configFile: '.eslintrc'
+			},
+			src: [
 				'Gruntfile.js',
 				'lib/**/*.js',
 				'tasks/**/*.js'
@@ -48,6 +47,6 @@ module.exports = function (grunt) {
 		}
 	});
 
-	grunt.registerTask('test', ['jshint']);
+	grunt.registerTask('test', ['eslint']);
 	grunt.registerTask('default', ['test']);
 };
