@@ -7,11 +7,12 @@ engines:
       - javascript
   eslint:
     enabled: true
+    config:
+      config: .eslintrc
   fixme:
     enabled: true
 ratings:
   paths:
   - "**.js"
-  - "**.jsx"
-  - "**.module"
-exclude_paths: []
+exclude_paths:
+- test/
