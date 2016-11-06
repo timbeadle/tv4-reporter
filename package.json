@@ -34,22 +34,22 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "jsonpointer.js": "0.3.0",
+    "jsonpointer.js": "^0.4.0",
     "ministyle": "~0.1.0",
     "miniwrite": "~0.1.0"
   },
   "devDependencies": {
     "eslint-plugin-jsdoc": "^2.3.1",
-    "eslint-plugin-node": "^1.0.0",
+    "eslint-plugin-node": "^3.0.3",
     "grunt": "^1.0.1",
-    "grunt-eslint": "^18.0.0",
+    "grunt-eslint": "^19.0.0",
     "grunt-release-it": "^1.0.1",
-    "load-grunt-tasks": "^3.5.0",
-    "tv4": "~1.0.11"
+    "load-grunt-tasks": "^3.5.2",
+    "tv4": "^1.2.7"
   },
   "peerDependencies": {
     "ministyle": "~0.1.0",
     "miniwrite": "~0.1.0",
-    "tv4": "~1.0.11"
+    "tv4": "^1.2.7"
   }
 }
