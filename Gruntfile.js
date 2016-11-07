@@ -28,7 +28,7 @@ module.exports = function (grunt) {
 	grunt.initConfig({
 		eslint: {
 			options: {
-				configFile: '.eslintrc'
+				configFile: '.eslintrc.yml'
 			},
 			src: [
 				'Gruntfile.js',
