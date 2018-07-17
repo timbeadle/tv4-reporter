@@ -42,7 +42,7 @@
     "eslint": "^4.11.0",
     "eslint-plugin-jsdoc": "^3.2.0",
     "eslint-plugin-node": "^6.0.0",
-    "grunt": "^1.0.1",
+    "grunt": "^1.0.3",
     "grunt-eslint": "^20.1.0",
     "grunt-release-it": "^1.0.1",
     "load-grunt-tasks": "^4.0.0",
