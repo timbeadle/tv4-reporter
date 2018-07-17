@@ -41,7 +41,7 @@
   "devDependencies": {
     "eslint": "^5.1.0",
     "eslint-plugin-jsdoc": "^3.7.1",
-    "eslint-plugin-node": "^6.0.0",
+    "eslint-plugin-node": "^7.0.0",
     "grunt": "^1.0.3",
     "grunt-eslint": "^20.1.0",
     "grunt-release-it": "^1.0.1",
