@@ -32,7 +32,7 @@
   },
   "scripts": {
     "test": "npm run lint",
-    "lint": "eslint --config .eslintrc.yml lib/**/*.js tasks/**/*.js"
+    "lint": "eslint --config .eslintrc.yml lib/**/*.js"
   },
   "dependencies": {
     "jsonpointer.js": "^0.4.0",
