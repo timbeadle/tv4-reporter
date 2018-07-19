@@ -31,7 +31,8 @@
     "node": ">=6"
   },
   "scripts": {
-    "test": "grunt test"
+    "test": "npm run lint",
+    "lint": "eslint --config .eslintrc.yml lib/**/*.js tasks/**/*.js"
   },
   "dependencies": {
     "jsonpointer.js": "^0.4.0",
@@ -43,10 +44,6 @@
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-jsdoc": "^3.7.1",
     "eslint-plugin-node": "^7.0.0",
-    "grunt": "^1.0.3",
-    "grunt-eslint": "^21.0.0",
-    "grunt-release-it": "^1.0.1",
-    "load-grunt-tasks": "^4.0.0",
     "tv4": "^1.3.0"
   },
   "peerDependencies": {
