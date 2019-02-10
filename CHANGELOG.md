@@ -2,6 +2,22 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.1.0] - 2019-02-10
+### Added
+- .editorconfig
+- Snyk monitoring
+- node 8, 9, 10, 11 support in .travis.yml
+- eslint
+- eslint-{config,plugin}-prettier
+
+### Updated
+- tv4@1.3.0
+- eslint-plugin-node@8.0.1
+
+### Removed
+- node 4, 5 support
+- grunt and plugins
+
 ## [1.0.0] - 2016-11-06
 ### Added
 - node v7 support in .travis.yml
@@ -71,6 +87,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - added miniwrite/ministyle as peer dependencies to package.json
 
 
+[1.1.0]: https://github.com/timbeadle/tv4-reporter/compare/1.0.0...1.1.0
 [1.0.0]: https://github.com/timbeadle/tv4-reporter/compare/0.1.1...1.0.0
 [0.1.1]: https://github.com/timbeadle/tv4-reporter/compare/0.1.0...0.1.1
 [0.1.0]: https://github.com/timbeadle/tv4-reporter/compare/0.0.4...0.1.0
