@@ -40,7 +40,7 @@
     "miniwrite": "~0.1.0"
   },
   "devDependencies": {
-    "eslint": "^5.13.0",
+    "eslint": "^5.15.3",
     "eslint-config-prettier": "^4.0.0",
     "eslint-plugin-jsdoc": "^4.1.0",
     "eslint-plugin-node": "^8.0.1",
