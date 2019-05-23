@@ -52,5 +52,10 @@
     "ministyle": "~0.1.0",
     "miniwrite": "~0.1.0",
     "tv4": "^1.2.7"
+  },
+  "greenkeeper": {
+    "ignore": [
+      "eslint-plugin-node"
+    ]
   }
 }
