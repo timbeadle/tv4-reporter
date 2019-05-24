@@ -28,7 +28,7 @@
   ],
   "main": "lib/reporter.js",
   "engines": {
-    "node": ">=6"
+    "node": ">=8"
   },
   "scripts": {
     "test": "snyk test --dev && npm run lint",
@@ -52,10 +52,5 @@
     "ministyle": "~0.1.0",
     "miniwrite": "~0.1.0",
     "tv4": "^1.2.7"
-  },
-  "greenkeeper": {
-    "ignore": [
-      "eslint-plugin-node"
-    ]
   }
 }
