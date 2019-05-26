@@ -2,6 +2,23 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.0.0] - 2019-05-26
+### Added
+- node 12 support
+- DepShield & Snyk badges
+
+### Updated
+- eslint@5.16.0
+- eslint-config-prettier@4.3.0
+- eslint-plugin-jsdoc@7.0.2
+- eslint-plugin-node@9.1.0
+- eslint-plugin-prettier@3.1.0
+- snyk@1.167.2
+
+### Removed
+- preinstall of grunt-cli (unneeded)
+- node 6, 7 support
+
 ## [1.1.0] - 2019-02-10
 ### Added
 - .editorconfig
