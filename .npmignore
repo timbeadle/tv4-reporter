@@ -1,13 +1,18 @@
-.npmignore
+.codeclimate.yml
+.editorconfig
+.eslintignore
+.eslintrc.yml
 .gitignore
+.gitattributes
+.npmignore
 .gitmodules
+.snyk
 .travis.yml
-.eslintrc
-bower.json
-Gruntfile.js
+.DS_Store
 
 /.idea
+/.vscode
 /node_modules
 /test
-/media
 /*.tgz
+/*.txt
