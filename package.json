@@ -42,7 +42,7 @@
   "devDependencies": {
     "eslint": "^5.16.0",
     "eslint-config-prettier": "^4.3.0",
-    "eslint-plugin-jsdoc": "^7.0.2",
+    "eslint-plugin-jsdoc": "^7.2.3",
     "eslint-plugin-node": "^9.1.0",
     "eslint-plugin-prettier": "^3.1.0",
     "snyk": "^1.167.2",
