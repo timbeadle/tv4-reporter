@@ -32,12 +32,15 @@
   },
   "scripts": {
     "test": "snyk test --dev && npm run lint",
-    "lint": "eslint --config .eslintrc.yml lib/**/*.js"
+    "lint": "eslint --config .eslintrc.yml lib/**/*.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "jsonpointer.js": "^0.4.0",
     "ministyle": "~0.1.0",
-    "miniwrite": "~0.1.0"
+    "miniwrite": "~0.1.0",
+    "snyk": "^1.192.4"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
@@ -45,12 +48,12 @@
     "eslint-plugin-jsdoc": "^7.2.3",
     "eslint-plugin-node": "^9.1.0",
     "eslint-plugin-prettier": "^3.1.0",
-    "snyk": "^1.173.1",
     "tv4": "^1.3.0"
   },
   "peerDependencies": {
     "ministyle": "~0.1.0",
     "miniwrite": "~0.1.0",
     "tv4": "^1.2.7"
-  }
+  },
+  "snyk": true
 }
