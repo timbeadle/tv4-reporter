@@ -43,7 +43,7 @@
     "snyk": "^1.192.4"
   },
   "devDependencies": {
-    "eslint": "^5.16.0",
+    "eslint": "^6.0.1",
     "eslint-config-prettier": "^4.3.0",
     "eslint-plugin-jsdoc": "^15.3.2",
     "eslint-plugin-node": "^9.1.0",
