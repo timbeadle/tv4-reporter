@@ -2,6 +2,18 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.0.1] - 2019-07-11
+### Added
+- snyk protect
+
+### Updated
+- eslint@6.0.1
+- eslint-config-prettier@6.0.0
+- eslint-plugin-jsdoc@15.3.4
+- prettier@1.18.2
+- snyk@1.192.6
+
+
 ## [2.0.0] - 2019-05-26
 ### Added
 - node 12 support
@@ -103,7 +115,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
   - tuned text
 - added miniwrite/ministyle as peer dependencies to package.json
 
-
+[2.0.1]: https://github.com/timbeadle/tv4-reporter/compare/2.0.0...2.0.1
+[2.0.0]: https://github.com/timbeadle/tv4-reporter/compare/1.1.0...2.0.0
 [1.1.0]: https://github.com/timbeadle/tv4-reporter/compare/1.0.0...1.1.0
 [1.0.0]: https://github.com/timbeadle/tv4-reporter/compare/0.1.1...1.0.0
 [0.1.1]: https://github.com/timbeadle/tv4-reporter/compare/0.1.0...0.1.1
