@@ -137,4 +137,4 @@ Copyright (c) 2013 Bart van der Schoor
 Licensed under the MIT license.
 
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/timbeadle/tv4-reporter/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/timbeadle/tv4-reporter/trend.png)](https://bitdeli.com/free "Bitdeli Badge") [![Greenkeeper badge](https://badges.greenkeeper.io/timbeadle/tv4-reporter.svg)](https://greenkeeper.io/)
