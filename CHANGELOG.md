@@ -2,6 +2,20 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.0.2] - 2019-09-07
+### Added
+- Greenkeeper.io badge
+
+### Updated
+- snyk@1.226.0
+- eslint@6.3.0
+- eslint-config-prettier@6.2.0
+- eslint-plugin-jsdoc@15.9.1
+- eslint-plugin-node@10.0.0
+
+### Removed
+- Bitdeli.com badge (defunct)
+
 ## [2.0.1] - 2019-07-11
 ### Added
 - snyk protect
@@ -115,6 +129,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
   - tuned text
 - added miniwrite/ministyle as peer dependencies to package.json
 
+[2.0.2]: https://github.com/timbeadle/tv4-reporter/compare/2.0.1...2.0.2
 [2.0.1]: https://github.com/timbeadle/tv4-reporter/compare/2.0.0...2.0.1
 [2.0.0]: https://github.com/timbeadle/tv4-reporter/compare/1.1.0...2.0.0
 [1.1.0]: https://github.com/timbeadle/tv4-reporter/compare/1.0.0...1.1.0
