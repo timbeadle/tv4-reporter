@@ -40,7 +40,7 @@
     "jsonpointer.js": "^0.4.0",
     "ministyle": "~0.1.0",
     "miniwrite": "~0.1.0",
-    "snyk": "^1.264.0"
+    "snyk": "^1.278.2"
   },
   "devDependencies": {
     "eslint": "^6.5.1",
