@@ -21,7 +21,7 @@
     node/no-unsupported-features:
       - 2
       -
-        version: 4
+        version: 8
     node/shebang: 2
     jsdoc/check-param-names: 1
     jsdoc/check-tag-names: 1
