@@ -2,6 +2,22 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [3.0.0] - 2020-01-27
+
+### Added
+- .prettierrc.yaml
+- nodejs v13 support in .travis.yml
+- xo linter
+
+### Updated
+- Refactored lib/reporter.js to conform to xo linting rules and use es6 arrow functions
+- Abstracted utils into separate lib/utils.js module
+- prettier@1.19.1
+- snyk@1.283.0
+
+### Removed
+- eslint and plugins/config
+
 ## [2.0.3] - 2019-10-13
 
 ### Updated
@@ -139,6 +155,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
   - tuned text
 - added miniwrite/ministyle as peer dependencies to package.json
 
+[3.0.0]: https://github.com/timbeadle/tv4-reporter/compare/2.0.3...3.0.0
 [2.0.3]: https://github.com/timbeadle/tv4-reporter/compare/2.0.2...2.0.3
 [2.0.2]: https://github.com/timbeadle/tv4-reporter/compare/2.0.1...2.0.2
 [2.0.1]: https://github.com/timbeadle/tv4-reporter/compare/2.0.0...2.0.1
