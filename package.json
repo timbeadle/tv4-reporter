@@ -31,7 +31,7 @@
     "node": ">=8"
   },
   "scripts": {
-    "test": "npm run test:lint && npm run test:snyk",
+    "test": "npm run test:snyk && npm run test:lint",
     "test:lint": "xo lib/**/*.js",
     "test:snyk": "snyk test --dev",
     "snyk-protect": "snyk protect",
