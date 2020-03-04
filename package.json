@@ -32,6 +32,7 @@
   },
   "scripts": {
     "test": "npm run test:snyk && npm run test:lint",
+    "test:ci": "npm run test:lint",
     "test:lint": "xo lib/**/*.js",
     "test:snyk": "snyk test --dev",
     "snyk-protect": "snyk protect",
