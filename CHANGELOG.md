@@ -2,6 +2,18 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [4.0.0] - 2020-03-05
+
+### Added
+- Github actions for running tests, via test:ci npm script
+
+### Updated
+- snyk@1.298.0
+- xo@0.27.2
+
+### Removed
+- nodejs <10 support
+
 ## [3.0.0] - 2020-01-27
 
 ### Added
@@ -155,6 +167,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
   - tuned text
 - added miniwrite/ministyle as peer dependencies to package.json
 
+[4.0.0]: https://github.com/timbeadle/tv4-reporter/compare/3.0.0...4.0.0
 [3.0.0]: https://github.com/timbeadle/tv4-reporter/compare/2.0.3...3.0.0
 [2.0.3]: https://github.com/timbeadle/tv4-reporter/compare/2.0.2...2.0.3
 [2.0.2]: https://github.com/timbeadle/tv4-reporter/compare/2.0.1...2.0.2
