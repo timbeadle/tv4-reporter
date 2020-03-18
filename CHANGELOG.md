@@ -2,6 +2,11 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [4.0.1] - 2020-03-18
+
+### Updated
+- Upgrade minimist to remove security vulnerabilty
+
 ## [4.0.0] - 2020-03-05
 
 ### Added
@@ -167,6 +172,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
   - tuned text
 - added miniwrite/ministyle as peer dependencies to package.json
 
+[4.0.1]: https://github.com/timbeadle/tv4-reporter/compare/4.0.0...4.0.1
 [4.0.0]: https://github.com/timbeadle/tv4-reporter/compare/3.0.0...4.0.0
 [3.0.0]: https://github.com/timbeadle/tv4-reporter/compare/2.0.3...3.0.0
 [2.0.3]: https://github.com/timbeadle/tv4-reporter/compare/2.0.2...2.0.3
