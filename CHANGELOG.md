@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [4.0.2] - 2020-03-19
+
+### Updated
+- snyk@1.299.0
+- xo@0.28.0
+- Linting fixes to comply with rules in xo v0.28.0
+
+
 ## [4.0.1] - 2020-03-18
 
 ### Updated
@@ -172,6 +180,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
   - tuned text
 - added miniwrite/ministyle as peer dependencies to package.json
 
+[4.0.2]: https://github.com/timbeadle/tv4-reporter/compare/4.0.1...4.0.2
 [4.0.1]: https://github.com/timbeadle/tv4-reporter/compare/4.0.0...4.0.1
 [4.0.0]: https://github.com/timbeadle/tv4-reporter/compare/3.0.0...4.0.0
 [3.0.0]: https://github.com/timbeadle/tv4-reporter/compare/2.0.3...3.0.0
