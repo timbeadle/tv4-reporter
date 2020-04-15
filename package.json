@@ -47,7 +47,7 @@
   "devDependencies": {
     "prettier": "^2.0.4",
     "tv4": "^1.3.0",
-    "xo": "^0.28.2"
+    "xo": "^0.29.1"
   },
   "peerDependencies": {
     "ministyle": "~0.1.0",
