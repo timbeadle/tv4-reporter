@@ -12,7 +12,7 @@ ignore:
   SNYK-JS-YARGSPARSER-560381:
     - xo > meow > yargs-parser:
         reason: None given
-        expires: '2020-05-30T21:16:43.479Z'
+        expires: '2020-05-31T11:18:42.266Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   SNYK-JS-LODASH-450202:
@@ -62,56 +62,54 @@ patch:
         patched: '2019-12-12T02:45:08.785Z'
   SNYK-JS-LODASH-567746:
     - snyk > snyk-config > lodash:
-        patched: '2020-04-30T21:16:00.208Z'
+        patched: '2020-05-01T02:40:01.753Z'
+      xo > eslint-import-resolver-webpack > lodash:
+        patched: '2020-05-01T11:18:10.831Z'
     - snyk > snyk-mvn-plugin > lodash:
-        patched: '2020-04-30T21:16:00.208Z'
-    - xo > eslint-import-resolver-webpack > lodash:
-        patched: '2020-04-30T21:16:00.208Z'
-    - xo > eslint-plugin-unicorn > lodash:
-        patched: '2020-04-30T21:16:00.208Z'
+        patched: '2020-05-01T02:40:01.753Z'
+      xo > eslint-plugin-unicorn > lodash:
+        patched: '2020-05-01T11:18:10.831Z'
     - snyk > @snyk/dep-graph > graphlib > lodash:
-        patched: '2020-04-30T21:16:00.208Z'
+        patched: '2020-05-01T02:40:01.753Z'
+      xo > @typescript-eslint/parser > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-05-01T11:18:10.831Z'
     - snyk > snyk-go-plugin > graphlib > lodash:
-        patched: '2020-04-30T21:16:00.208Z'
+        patched: '2020-05-01T02:40:01.753Z'
+      xo > eslint > inquirer > lodash:
+        patched: '2020-05-01T11:18:10.831Z'
     - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
-        patched: '2020-04-30T21:16:00.208Z'
-    - xo > @typescript-eslint/parser > @typescript-eslint/typescript-estree > lodash:
-        patched: '2020-04-30T21:16:00.208Z'
-    - xo > eslint > inquirer > lodash:
-        patched: '2020-04-30T21:16:00.208Z'
+        patched: '2020-05-01T02:40:01.753Z'
+      xo > @typescript-eslint/eslint-plugin > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-05-01T11:18:10.831Z'
     - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > graphlib > lodash:
-        patched: '2020-04-30T21:16:00.208Z'
-    - xo > @typescript-eslint/eslint-plugin > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
-        patched: '2020-04-30T21:16:00.208Z'
-    - xo > @typescript-eslint/parser > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
-        patched: '2020-04-30T21:16:00.208Z'
+        patched: '2020-05-01T02:40:01.753Z'
+      xo > @typescript-eslint/parser > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-05-01T11:18:10.831Z'
     - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/dep-graph > graphlib > lodash:
-        patched: '2020-04-30T21:16:00.208Z'
+        patched: '2020-05-01T02:40:01.753Z'
+      xo > eslint > lodash:
+        patched: '2020-05-01T11:18:10.831Z'
     - snyk > lodash:
-        patched: '2020-04-30T21:16:00.208Z'
+        patched: '2020-05-01T02:40:01.753Z'
+      xo > eslint > table > lodash:
+        patched: '2020-05-01T11:18:10.831Z'
     - snyk > @snyk/dep-graph > lodash:
-        patched: '2020-04-30T21:16:00.208Z'
+        patched: '2020-05-01T02:40:01.753Z'
+      xo > eslint-plugin-ava > enhance-visitors > lodash:
+        patched: '2020-05-01T11:18:10.831Z'
     - snyk > inquirer > lodash:
-        patched: '2020-04-30T21:16:00.208Z'
+        patched: '2020-05-01T02:40:01.753Z'
+      xo > lodash:
+        patched: '2020-05-01T11:18:10.831Z'
     - snyk > snyk-nodejs-lockfile-parser > lodash:
-        patched: '2020-04-30T21:16:00.208Z'
+        patched: '2020-05-01T02:40:01.753Z'
     - snyk > snyk-nuget-plugin > lodash:
-        patched: '2020-04-30T21:16:00.208Z'
-    - xo > eslint > lodash:
-        patched: '2020-04-30T21:16:00.208Z'
+        patched: '2020-05-01T02:40:01.753Z'
     - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > lodash:
-        patched: '2020-04-30T21:16:00.208Z'
+        patched: '2020-05-01T02:40:01.753Z'
     - snyk > snyk-nuget-plugin > dotnet-deps-parser > lodash:
-        patched: '2020-04-30T21:16:00.208Z'
+        patched: '2020-05-01T02:40:01.753Z'
     - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
-        patched: '2020-04-30T21:16:00.208Z'
-    - xo > eslint > table > lodash:
-        patched: '2020-04-30T21:16:00.208Z'
-    - xo > eslint-plugin-ava > enhance-visitors > lodash:
-        patched: '2020-04-30T21:16:00.208Z'
-    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/dep-graph > lodash:
-        patched: '2020-04-30T21:16:00.208Z'
+        patched: '2020-05-01T02:40:01.753Z'
     - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/ruby-semver > lodash:
-        patched: '2020-04-30T21:16:00.208Z'
-    - xo > lodash:
-        patched: '2020-04-30T21:16:00.208Z'
+        patched: '2020-05-01T02:40:01.753Z'
