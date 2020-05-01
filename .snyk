@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.14.1
+version: v1.13.5
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   SNYK-JS-DOTPROP-543489:
@@ -12,7 +12,7 @@ ignore:
   SNYK-JS-YARGSPARSER-560381:
     - xo > meow > yargs-parser:
         reason: None given
-        expires: '2020-05-02T08:23:31.804Z'
+        expires: '2020-05-31T11:18:42.266Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   SNYK-JS-LODASH-450202:
@@ -63,24 +63,44 @@ patch:
   SNYK-JS-LODASH-567746:
     - snyk > snyk-config > lodash:
         patched: '2020-05-01T02:40:01.753Z'
+      xo > eslint-import-resolver-webpack > lodash:
+        patched: '2020-05-01T14:24:05.161Z'
     - snyk > snyk-mvn-plugin > lodash:
         patched: '2020-05-01T02:40:01.753Z'
+      xo > eslint-plugin-unicorn > lodash:
+        patched: '2020-05-01T14:24:05.161Z'
     - snyk > @snyk/dep-graph > graphlib > lodash:
         patched: '2020-05-01T02:40:01.753Z'
+      xo > @typescript-eslint/parser > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-05-01T14:24:05.161Z'
     - snyk > snyk-go-plugin > graphlib > lodash:
         patched: '2020-05-01T02:40:01.753Z'
+      xo > eslint > inquirer > lodash:
+        patched: '2020-05-01T14:24:05.161Z'
     - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
         patched: '2020-05-01T02:40:01.753Z'
+      xo > @typescript-eslint/eslint-plugin > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-05-01T14:24:05.161Z'
     - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > graphlib > lodash:
         patched: '2020-05-01T02:40:01.753Z'
+      xo > @typescript-eslint/parser > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-05-01T14:24:05.161Z'
     - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/dep-graph > graphlib > lodash:
         patched: '2020-05-01T02:40:01.753Z'
+      xo > eslint > lodash:
+        patched: '2020-05-01T14:24:05.161Z'
     - snyk > lodash:
         patched: '2020-05-01T02:40:01.753Z'
+      xo > eslint > table > lodash:
+        patched: '2020-05-01T14:24:05.161Z'
     - snyk > @snyk/dep-graph > lodash:
         patched: '2020-05-01T02:40:01.753Z'
+      xo > eslint-plugin-ava > enhance-visitors > lodash:
+        patched: '2020-05-01T14:24:05.161Z'
     - snyk > inquirer > lodash:
         patched: '2020-05-01T02:40:01.753Z'
+      xo > lodash:
+        patched: '2020-05-01T14:24:05.161Z'
     - snyk > snyk-nodejs-lockfile-parser > lodash:
         patched: '2020-05-01T02:40:01.753Z'
     - snyk > snyk-nuget-plugin > lodash:
@@ -93,3 +113,23 @@ patch:
         patched: '2020-05-01T02:40:01.753Z'
     - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/ruby-semver > lodash:
         patched: '2020-05-01T02:40:01.753Z'
+    - xo > eslint-import-resolver-webpack > lodash:
+        patched: '2020-05-01T11:18:10.831Z'
+    - xo > eslint-plugin-unicorn > lodash:
+        patched: '2020-05-01T11:18:10.831Z'
+    - xo > @typescript-eslint/parser > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-05-01T11:18:10.831Z'
+    - xo > eslint > inquirer > lodash:
+        patched: '2020-05-01T11:18:10.831Z'
+    - xo > @typescript-eslint/eslint-plugin > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-05-01T11:18:10.831Z'
+    - xo > @typescript-eslint/parser > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-05-01T11:18:10.831Z'
+    - xo > eslint > lodash:
+        patched: '2020-05-01T11:18:10.831Z'
+    - xo > eslint > table > lodash:
+        patched: '2020-05-01T11:18:10.831Z'
+    - xo > eslint-plugin-ava > enhance-visitors > lodash:
+        patched: '2020-05-01T11:18:10.831Z'
+    - xo > lodash:
+        patched: '2020-05-01T11:18:10.831Z'
