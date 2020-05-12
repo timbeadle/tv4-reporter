@@ -8,7 +8,6 @@
 [![Code Climate](https://codeclimate.com/github/timbeadle/tv4-reporter/badges/gpa.svg)](https://codeclimate.com/github/timbeadle/tv4-reporter)
 [![DepShield Badge](https://depshield.sonatype.org/badges/timbeadle/tv4-reporter/depshield.svg)](https://depshield.github.io)
 [![Known Vulnerabilities](https://snyk.io/test/github/timbeadle/tv4-reporter/badge.svg)](https://snyk.io/test/github/timbeadle/tv4-reporter)
-[![Greenkeeper badge](https://badges.greenkeeper.io/timbeadle/tv4-reporter.svg)](https://greenkeeper.io/)
 
 > Reporters to display usable [Tiny Validator tv4](https://github.com/geraintluff/tv4) output of [json-schema](http://jsonschema.org) validation.
 
