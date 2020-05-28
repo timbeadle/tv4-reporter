@@ -35,7 +35,7 @@
     "test:ci": "npm run test:lint",
     "test:lint": "xo lib/**/*.js",
     "test:snyk": "snyk test --dev",
-    "snyk-protect": "snyk protect --dev",
+    "snyk-protect": "snyk protect",
     "prepare": "npm run snyk-protect"
   },
   "dependencies": {
