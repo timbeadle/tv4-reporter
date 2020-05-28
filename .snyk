@@ -12,7 +12,7 @@ ignore:
   SNYK-JS-YARGSPARSER-560381:
     - xo > meow > yargs-parser:
         reason: None given
-        expires: '2020-06-27T10:50:50.210Z'
+        expires: '2020-06-27T12:42:39.254Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   SNYK-JS-LODASH-450202:
@@ -64,43 +64,43 @@ patch:
     - snyk > snyk-config > lodash:
         patched: '2020-05-01T02:40:01.753Z'
       xo > eslint > lodash:
-        patched: '2020-05-28T10:50:36.208Z'
+        patched: '2020-05-28T12:41:53.822Z'
     - snyk > snyk-mvn-plugin > lodash:
         patched: '2020-05-01T02:40:01.753Z'
       xo > eslint-import-resolver-webpack > lodash:
-        patched: '2020-05-28T10:50:36.208Z'
+        patched: '2020-05-28T12:41:53.822Z'
     - snyk > @snyk/dep-graph > graphlib > lodash:
         patched: '2020-05-01T02:40:01.753Z'
       xo > eslint-plugin-unicorn > lodash:
-        patched: '2020-05-28T10:50:36.208Z'
+        patched: '2020-05-28T12:41:53.822Z'
     - snyk > snyk-go-plugin > graphlib > lodash:
         patched: '2020-05-01T02:40:01.753Z'
       xo > @typescript-eslint/parser > @typescript-eslint/typescript-estree > lodash:
-        patched: '2020-05-28T10:50:36.208Z'
+        patched: '2020-05-28T12:41:53.822Z'
     - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
         patched: '2020-05-01T02:40:01.753Z'
       xo > eslint > inquirer > lodash:
-        patched: '2020-05-28T10:50:36.208Z'
+        patched: '2020-05-28T12:41:53.822Z'
     - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > graphlib > lodash:
         patched: '2020-05-01T02:40:01.753Z'
       xo > eslint > table > lodash:
-        patched: '2020-05-28T10:50:36.208Z'
+        patched: '2020-05-28T12:41:53.822Z'
     - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/dep-graph > graphlib > lodash:
         patched: '2020-05-01T02:40:01.753Z'
       xo > eslint-plugin-ava > enhance-visitors > lodash:
-        patched: '2020-05-28T10:50:36.208Z'
+        patched: '2020-05-28T12:41:53.822Z'
     - snyk > lodash:
         patched: '2020-05-01T02:40:01.753Z'
       xo > @typescript-eslint/eslint-plugin > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
-        patched: '2020-05-28T10:50:36.208Z'
+        patched: '2020-05-28T12:41:53.822Z'
     - snyk > @snyk/dep-graph > lodash:
         patched: '2020-05-01T02:40:01.753Z'
       xo > @typescript-eslint/parser > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
-        patched: '2020-05-28T10:50:36.208Z'
+        patched: '2020-05-28T12:41:53.822Z'
     - snyk > inquirer > lodash:
         patched: '2020-05-01T02:40:01.753Z'
       xo > lodash:
-        patched: '2020-05-28T10:50:36.208Z'
+        patched: '2020-05-28T12:41:53.822Z'
     - snyk > snyk-nodejs-lockfile-parser > lodash:
         patched: '2020-05-01T02:40:01.753Z'
     - snyk > snyk-nuget-plugin > lodash:
@@ -173,3 +173,23 @@ patch:
         patched: '2020-05-28T10:39:39.063Z'
     - xo > lodash:
         patched: '2020-05-28T10:39:39.063Z'
+    - xo > eslint > lodash:
+        patched: '2020-05-28T10:50:36.208Z'
+    - xo > eslint-import-resolver-webpack > lodash:
+        patched: '2020-05-28T10:50:36.208Z'
+    - xo > eslint-plugin-unicorn > lodash:
+        patched: '2020-05-28T10:50:36.208Z'
+    - xo > @typescript-eslint/parser > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-05-28T10:50:36.208Z'
+    - xo > eslint > inquirer > lodash:
+        patched: '2020-05-28T10:50:36.208Z'
+    - xo > eslint > table > lodash:
+        patched: '2020-05-28T10:50:36.208Z'
+    - xo > eslint-plugin-ava > enhance-visitors > lodash:
+        patched: '2020-05-28T10:50:36.208Z'
+    - xo > @typescript-eslint/eslint-plugin > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-05-28T10:50:36.208Z'
+    - xo > @typescript-eslint/parser > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        patched: '2020-05-28T10:50:36.208Z'
+    - xo > lodash:
+        patched: '2020-05-28T10:50:36.208Z'
