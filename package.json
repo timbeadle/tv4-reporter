@@ -35,7 +35,7 @@
     "test:ci": "npm run test:lint",
     "test:lint": "xo lib/**/*.js",
     "test:snyk": "snyk test --dev",
-    "snyk-protect": "snyk protect --dev",
+    "snyk-protect": "snyk protect",
     "prepare": "npm run snyk-protect"
   },
   "dependencies": {
@@ -47,7 +47,7 @@
   "devDependencies": {
     "prettier": "^2.0.5",
     "tv4": "^1.3.0",
-    "xo": "^0.30.0"
+    "xo": "^0.32.1"
   },
   "peerDependencies": {
     "ministyle": "~0.1.0",
