@@ -2,7 +2,7 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-## [4.1.0] - 2020-03-19
+## [4.1.0] - 2020-07-07
 
 ### Added
 - nodejs v14 support
