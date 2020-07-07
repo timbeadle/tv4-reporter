@@ -2,6 +2,22 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [4.1.0] - 2020-03-19
+
+### Added
+- nodejs v14 support
+- travis-ci.com for test/build
+
+### Updated
+- snyk policy
+- prettier@2.0.5
+- snyk@1.360.0
+- xo@0.32.1
+
+### Removed
+- Greenkeeper badge (retired)
+- travis-ci.org for test/build
+
 ## [4.0.2] - 2020-03-19
 
 ### Updated
@@ -180,6 +196,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
   - tuned text
 - added miniwrite/ministyle as peer dependencies to package.json
 
+[4.1.0]: https://github.com/timbeadle/tv4-reporter/compare/4.0.2...4.1.0
 [4.0.2]: https://github.com/timbeadle/tv4-reporter/compare/4.0.1...4.0.2
 [4.0.1]: https://github.com/timbeadle/tv4-reporter/compare/4.0.0...4.0.1
 [4.0.0]: https://github.com/timbeadle/tv4-reporter/compare/3.0.0...4.0.0
