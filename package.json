@@ -42,12 +42,12 @@
     "jsonpointer.js": "^0.4.0",
     "ministyle": "~0.1.0",
     "miniwrite": "~0.1.0",
-    "snyk": "^1.370.1"
+    "snyk": "^1.379.0"
   },
   "devDependencies": {
     "prettier": "^2.0.5",
     "tv4": "^1.3.0",
-    "xo": "^0.32.1"
+    "xo": "^0.33.0"
   },
   "peerDependencies": {
     "ministyle": "~0.1.0",
