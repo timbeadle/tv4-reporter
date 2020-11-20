@@ -45,7 +45,7 @@
     "snyk": "^1.430.0"
   },
   "devDependencies": {
-    "prettier": "^2.1.2",
+    "prettier": "^2.2.0",
     "tv4": "^1.3.0",
     "xo": "^0.34.2"
   },
