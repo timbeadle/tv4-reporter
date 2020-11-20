@@ -2,6 +2,16 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [4.3.0] - 2020-11-20
+
+### Added
+- codeql analysis
+
+### Updated
+- prettier@2.2.0
+- snyk@1.430.0
+- xo@0.35.0
+
 ## [4.2.0] - 2020-10-21
 
 ### Added
@@ -206,6 +216,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
   - tuned text
 - added miniwrite/ministyle as peer dependencies to package.json
 
+[4.3.0]: https://github.com/timbeadle/tv4-reporter/compare/4.2.0...4.3.0
 [4.2.0]: https://github.com/timbeadle/tv4-reporter/compare/4.1.0...4.2.0
 [4.1.0]: https://github.com/timbeadle/tv4-reporter/compare/4.0.2...4.1.0
 [4.0.2]: https://github.com/timbeadle/tv4-reporter/compare/4.0.1...4.0.2
