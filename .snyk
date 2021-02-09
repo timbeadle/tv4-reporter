@@ -68,6 +68,19 @@ ignore:
     - xo > eslint-plugin-unicorn > eslint-template-visitor > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
         reason: None given
         expires: '2020-08-06T10:20:15.195Z'
+  SNYK-JS-GLOBPARENT-1016905:
+    - xo > eslint > glob-parent:
+        reason: None given
+        expires: '2021-03-11T10:41:19.937Z'
+    - xo > @typescript-eslint/parser > @typescript-eslint/typescript-estree > globby > fast-glob > glob-parent:
+        reason: None given
+        expires: '2021-03-11T10:41:19.938Z'
+    - xo > @typescript-eslint/eslint-plugin > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > globby > fast-glob > glob-parent:
+        reason: None given
+        expires: '2021-03-11T10:41:19.938Z'
+    - xo > globby > fast-glob > glob-parent:
+        reason: None given
+        expires: '2021-03-11T10:41:19.938Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   SNYK-JS-LODASH-450202:
