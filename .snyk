@@ -74,7 +74,7 @@ ignore:
         expires: '2021-03-11T10:41:19.937Z'
       xo > globby > fast-glob > glob-parent:
         reason: None given
-        expires: '2021-04-16T11:35:44.762Z'
+        expires: '2021-04-23T21:28:19.096Z'
     - xo > @typescript-eslint/parser > @typescript-eslint/typescript-estree > globby > fast-glob > glob-parent:
         reason: None given
         expires: '2021-03-11T10:41:19.938Z'
@@ -84,6 +84,19 @@ ignore:
     - xo > globby > fast-glob > glob-parent:
         reason: None given
         expires: '2021-03-11T10:41:19.938Z'
+    - xo > globby > fast-glob > glob-parent:
+        reason: None given
+        expires: '2021-04-16T11:35:44.762Z'
+  SNYK-JS-HOSTEDGITINFO-1088355:
+    - xo > eslint-plugin-import > read-pkg-up > read-pkg > normalize-package-data > hosted-git-info:
+        reason: None given
+        expires: '2021-04-23T21:28:19.103Z'
+    - xo > eslint-plugin-unicorn > read-pkg-up > read-pkg > normalize-package-data > hosted-git-info:
+        reason: None given
+        expires: '2021-04-23T21:28:19.104Z'
+    - xo > meow > read-pkg-up > read-pkg > normalize-package-data > hosted-git-info:
+        reason: None given
+        expires: '2021-04-23T21:28:19.104Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   SNYK-JS-LODASH-450202:
