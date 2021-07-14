@@ -74,7 +74,7 @@ ignore:
         expires: '2021-03-11T10:41:19.937Z'
       xo > globby > fast-glob > glob-parent:
         reason: None given
-        expires: '2021-04-23T21:28:19.096Z'
+        expires: '2021-08-13T10:45:46.080Z'
     - xo > @typescript-eslint/parser > @typescript-eslint/typescript-estree > globby > fast-glob > glob-parent:
         reason: None given
         expires: '2021-03-11T10:41:19.938Z'
@@ -87,6 +87,9 @@ ignore:
     - xo > globby > fast-glob > glob-parent:
         reason: None given
         expires: '2021-04-16T11:35:44.762Z'
+    - xo > globby > fast-glob > glob-parent:
+        reason: None given
+        expires: '2021-04-23T21:28:19.096Z'
   SNYK-JS-HOSTEDGITINFO-1088355:
     - xo > eslint-plugin-import > read-pkg-up > read-pkg > normalize-package-data > hosted-git-info:
         reason: None given
