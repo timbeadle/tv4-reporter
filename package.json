@@ -42,7 +42,7 @@
     "jsonpointer.js": "^0.4.0",
     "ministyle": "~0.1.0",
     "miniwrite": "~0.1.0",
-    "snyk": "^1.624.0"
+    "snyk": "^1.667.0"
   },
   "devDependencies": {
     "prettier": "^2.3.1",
