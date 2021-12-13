@@ -31,7 +31,7 @@ This module is used by various dependents to render `tv4` validation result obje
 1. Examples of many different kind of errors in [this Travis-Ci build](https://travis-ci.org/Bartvds/grunt-tv4/jobs/14469941).
 1. Bulk reporter with single error:
 
-  [![WebStorm example](https://raw.github.com/timbeadle/tv4-reporter/master/media/webstorm-example-01.png)](https://raw.github.com/timbeadle/tv4-reporter/master/media/webstorm-example-01.png)
+  [![WebStorm example](https://raw.github.com/timbeadle/tv4-reporter/main/media/webstorm-example-01.png)](https://raw.github.com/timbeadle/tv4-reporter/main/media/webstorm-example-01.png)
 
 ## Installation
 
