@@ -2,9 +2,8 @@
 
 [![npm version](https://img.shields.io/npm/v/tv4-reporter.svg)](https://www.npmjs.com/package/tv4-reporter)
 [![Downloads/month](https://img.shields.io/npm/dm/tv4-reporter.svg)](https://www.npmjs.com/package/tv4-reporter)
-[![Build Status](https://travis-ci.com/timbeadle/tv4-reporter.svg?branch=master)](https://travis-ci.com/timbeadle/tv4-reporter)
-[![Dependency Status](https://david-dm.org/timbeadle/tv4-reporter.svg)](https://david-dm.org/timbeadle/tv4-reporter)
-[![devDependency Status](https://david-dm.org/timbeadle/tv4-reporter/dev-status.svg)](https://david-dm.org/timbeadle/tv4-reporter#info=devDependencies)
+[![Build Status](https://github.com/timbeadle/tv4-reporter/workflows/Node.js%20CI/badge.svg)](https://github.com/timbeadle/tv4-reporter)
+[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
 [![Code Climate](https://codeclimate.com/github/timbeadle/tv4-reporter/badges/gpa.svg)](https://codeclimate.com/github/timbeadle/tv4-reporter)
 [![DepShield Badge](https://depshield.sonatype.org/badges/timbeadle/tv4-reporter/depshield.svg)](https://depshield.github.io)
 [![Known Vulnerabilities](https://snyk.io/test/github/timbeadle/tv4-reporter/badge.svg)](https://snyk.io/test/github/timbeadle/tv4-reporter)
@@ -98,17 +97,9 @@ Report output and styling done via extensible mini-api's:
 1. Output will likely be tuned over time.
 1. Current version is very functional but doesn't yet do anything specific for each validation rule type.
 
-## History
+## Release history
 
-* 0.1.1
-	* Add Code Climate & Download/month badges and other README tweaks
-* 0.1.0
-	* Remove node 0.8 support
-	* Various fixes ([828bb5e](https://github.com/timbeadle/tv4-reporter/commit/828bb5edebd67addee859506a92a60e550526b8a))
-	* Update to grunt v1
-	* Project ownership transferred to Tim Beadle (https://github.com/timbeadle)
-* <= 0.0.4 - Many fixes and tweaks.
-* 0.0.1 - Extracted formatting code from [grunt-tv4](https://github.com/timbeadle/grunt-tv4) and [chai-json-schema](https://github.com/Bartvds/chai-json-schema).
+* See [CHANGELOG](https://github.com/timbeadle/tv4-reporter/blob/main/CHANGELOG.md).
 
 ## Build
 
