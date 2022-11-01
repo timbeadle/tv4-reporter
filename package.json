@@ -28,7 +28,7 @@
   ],
   "main": "lib/reporter.js",
   "engines": {
-    "node": "^18 || ^17 || ^16 || ^15 || ^14 || ^13 || ^12 || ^11 || ^10"
+    "node": ">= 10"
   },
   "scripts": {
     "test": "npm run test:snyk && npm run test:lint && npm run test:engines",
