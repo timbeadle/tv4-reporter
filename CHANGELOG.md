@@ -2,6 +2,30 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [5.0.0] - 2022-11-20
+
+### Added
+- Renovate & Dependabot for dependency management
+- ESLint (with xo config)
+- Github action for testing
+- NodeJS v19 test run
+
+### Updated
+- Source code to adhere to xo code style
+- Minimum NodeJS version now v12
+- actions/checkout@v3
+- actions/setup-node@v3
+- github/codeql-action/init@v2
+- github/codeql-action/autobuild@v2
+- github/codeql-action/analyze@v2
+
+## Removed
+- NodeJS v10 support
+- xo
+- DavidDM (dependency analysis)
+- TravisCI testing
+- NodeJS v10, v13, v15 test runs
+
 ## [4.3.0] - 2020-11-20
 
 ### Added
@@ -216,6 +240,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
   - tuned text
 - added miniwrite/ministyle as peer dependencies to package.json
 
+[5.0.0]: https://github.com/timbeadle/tv4-reporter/compare/4.3.0...5.0.0
 [4.3.0]: https://github.com/timbeadle/tv4-reporter/compare/4.2.0...4.3.0
 [4.2.0]: https://github.com/timbeadle/tv4-reporter/compare/4.1.0...4.2.0
 [4.1.0]: https://github.com/timbeadle/tv4-reporter/compare/4.0.2...4.1.0
