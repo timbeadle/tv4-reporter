@@ -28,7 +28,7 @@
   ],
   "main": "lib/reporter.js",
   "engines": {
-    "node": ">= 12"
+    "node": ">= 14.13"
   },
   "scripts": {
     "test": "npm run test:snyk && npm run test:lint && npm run test:engines",
