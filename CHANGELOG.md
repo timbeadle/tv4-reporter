@@ -2,6 +2,21 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [5.0.1] - 2023-03-10
+### Added
+- jsonpointer
+- @types/jsonpointer
+### Updated
+- eslint@8.35.0
+- eslint-config-xo@0.43.1
+- eslint-plugin-import@2.27.5
+- eslint-plugin-redos@4.4.5
+- ls-engines@0.8.1
+- prettier@2.8.4
+
+## Removed
+- jsonpointer.js
+
 ## [5.0.0] - 2022-11-20
 
 ### Added
@@ -240,6 +255,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
   - tuned text
 - added miniwrite/ministyle as peer dependencies to package.json
 
+[5.0.1]: https://github.com/timbeadle/tv4-reporter/compare/5.0.0...5.0.1
 [5.0.0]: https://github.com/timbeadle/tv4-reporter/compare/4.3.0...5.0.0
 [4.3.0]: https://github.com/timbeadle/tv4-reporter/compare/4.2.0...4.3.0
 [4.2.0]: https://github.com/timbeadle/tv4-reporter/compare/4.1.0...4.2.0
