@@ -35,14 +35,14 @@
     "test:ci": "npm run test:lint",
     "test:lint": "xo lib/**/*.js",
     "test:snyk": "snyk test --dev",
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "prepare": "npm run snyk-protect"
   },
   "dependencies": {
+    "@snyk/protect": "^1.1128.0",
     "jsonpointer.js": "^0.4.0",
     "ministyle": "~0.1.0",
-    "miniwrite": "~0.1.0",
-    "snyk": "^1.430.0"
+    "miniwrite": "~0.1.0"
   },
   "devDependencies": {
     "prettier": "^2.2.0",
