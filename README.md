@@ -98,17 +98,9 @@ Report output and styling done via extensible mini-api's:
 1. Output will likely be tuned over time.
 1. Current version is very functional but doesn't yet do anything specific for each validation rule type.
 
-## History
+## Release history
 
-* 0.1.1
-	* Add Code Climate & Download/month badges and other README tweaks
-* 0.1.0
-	* Remove node 0.8 support
-	* Various fixes ([828bb5e](https://github.com/timbeadle/tv4-reporter/commit/828bb5edebd67addee859506a92a60e550526b8a))
-	* Update to grunt v1
-	* Project ownership transferred to Tim Beadle (https://github.com/timbeadle)
-* <= 0.0.4 - Many fixes and tweaks.
-* 0.0.1 - Extracted formatting code from [grunt-tv4](https://github.com/timbeadle/grunt-tv4) and [chai-json-schema](https://github.com/Bartvds/chai-json-schema).
+* See [CHANGELOG](https://github.com/timbeadle/tv4-reporter/blob/main-4.x/CHANGELOG.md)
 
 ## Build
 
