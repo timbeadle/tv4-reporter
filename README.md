@@ -105,8 +105,7 @@ Report output and styling done via extensible mini-api's:
 | 2.x     | 8.0.0         | Obsolete    |
 | 3.x     | 8.0.0         | Obsolete    |
 | 4.x     | 10.0.0        | Security    |
-| 5.x     | 10.24.1       | Maintenance |
-| 6.x     | 12.0.0        | Current     |
+| 5.x     | 12.0.0        | Current     |
 
 ## Release history
 

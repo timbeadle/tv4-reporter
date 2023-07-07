@@ -2,6 +2,25 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [5.0.2] - 2023-07-07
+### Added
+- (README) Release support matrix
+- Node 12.0.x, 14.0.x, 14.13.x, 14.17.x, 20.x test runs
+- Volta pin node@12.0.0, npm@7.24.2
+- Renovate baseBranches config
+
+### Updated
+- ecmaVersion: 2020 (downgrade)
+- @snyk/protect@1.1187.0
+- eslint-config-xo@0.39.0 (downgrade)
+- eslint@7.32.0 (downgrade)
+- ministyle@0.1.4
+- miniwrite@0.1.4
+- prettier@3.0.0
+
+## Removed
+- Node 19.x test run
+
 ## [5.0.1] - 2023-03-10
 ### Added
 - jsonpointer
@@ -255,6 +274,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
   - tuned text
 - added miniwrite/ministyle as peer dependencies to package.json
 
+[5.0.2]: https://github.com/timbeadle/tv4-reporter/compare/5.0.1...5.0.2
 [5.0.1]: https://github.com/timbeadle/tv4-reporter/compare/5.0.0...5.0.1
 [5.0.0]: https://github.com/timbeadle/tv4-reporter/compare/4.3.0...5.0.0
 [4.3.0]: https://github.com/timbeadle/tv4-reporter/compare/4.2.0...4.3.0
