@@ -98,6 +98,16 @@ Report output and styling done via extensible mini-api's:
 1. Output will likely be tuned over time.
 1. Current version is very functional but doesn't yet do anything specific for each validation rule type.
 
+### Release support matrix
+
+| Release | Min Node ver. | Support     |
+| ------- | ------------- | ----------- |
+| 1.x     | 4.0.0         | Obsolete    |
+| 2.x     | 8.0.0         | Obsolete    |
+| 3.x     | 8.0.0         | Obsolete    |
+| 4.x     | 10.0.0        | Security    |
+| 5.x     | 12.0.0        | Current     |
+
 ## Release history
 
 * See [CHANGELOG](https://github.com/timbeadle/tv4-reporter/blob/main-4.x/CHANGELOG.md)
