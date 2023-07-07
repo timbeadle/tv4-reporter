@@ -14,6 +14,7 @@
   "bugs": {
     "url": "https://github.com/timbeadle/tv4-reporter/issues"
   },
+  "license": "MIT",
   "licenses": [
     {
       "type": "MIT",
@@ -39,10 +40,10 @@
     "prepare": "npm run snyk-protect"
   },
   "dependencies": {
-    "@snyk/protect": "^1.1128.0",
+    "@snyk/protect": "^1.1187.0",
     "jsonpointer.js": "^0.4.0",
-    "ministyle": "~0.1.0",
-    "miniwrite": "~0.1.0"
+    "ministyle": "^0.1.4",
+    "miniwrite": "^0.1.4"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
