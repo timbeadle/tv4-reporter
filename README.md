@@ -109,7 +109,7 @@ Report output and styling done via extensible mini-api's:
 
 ## Release history
 
-* See [CHANGELOG](https://github.com/timbeadle/tv4-reporter/blob/main/CHANGELOG.md).
+* See [CHANGELOG](https://github.com/timbeadle/tv4-reporter/blob/main-5.x/CHANGELOG.md).
 
 ## Build
 
