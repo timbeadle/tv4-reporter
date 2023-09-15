@@ -2,6 +2,15 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [4.3.3] - 2023-09-15
+
+**N.B.** This is the final release of the 4.x branch.
+### Updated
+- actions/checkout@v4
+- @snyk/protect@1.1220.0
+- eslint-plugin-import@2.28.1
+- prettier@3.0.3
+
 ## [4.3.2] - 2023-07-07
 ### Added
 - Node 10.0.x, 20.x test runs
@@ -250,6 +259,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
   - tuned text
 - added miniwrite/ministyle as peer dependencies to package.json
 
+[4.3.3]: https://github.com/timbeadle/tv4-reporter/compare/4.3.2...4.3.3
 [4.3.2]: https://github.com/timbeadle/tv4-reporter/compare/4.3.1...4.3.2
 [4.3.1]: https://github.com/timbeadle/tv4-reporter/compare/4.3.0...4.3.1
 [4.3.0]: https://github.com/timbeadle/tv4-reporter/compare/4.2.0...4.3.0
