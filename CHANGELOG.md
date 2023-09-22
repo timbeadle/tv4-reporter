@@ -2,6 +2,20 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [6.0.0] - 2023-09-22
+### Updated
+- BREAKING: NodeJS v14.0.0 is now the minimum supported version
+- @snyk/protect@1.1226.0
+- eslint-config-xo@0.43.1
+- eslint-plugin-import@2.28.1
+- eslint@8.49.0
+- ls-engines@0.9.0
+- prettier@3.0.3
+- actions/checkout@v4
+### Removed
+- NodeJS v12, v13 support
+
+
 ## [5.0.2] - 2023-07-07
 ### Added
 - (README) Release support matrix
@@ -274,6 +288,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
   - tuned text
 - added miniwrite/ministyle as peer dependencies to package.json
 
+[6.0.0]: https://github.com/timbeadle/tv4-reporter/compare/5.0.2...6.0.0
 [5.0.2]: https://github.com/timbeadle/tv4-reporter/compare/5.0.1...5.0.2
 [5.0.1]: https://github.com/timbeadle/tv4-reporter/compare/5.0.0...5.0.1
 [5.0.0]: https://github.com/timbeadle/tv4-reporter/compare/4.3.0...5.0.0
