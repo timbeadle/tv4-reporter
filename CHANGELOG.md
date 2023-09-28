@@ -298,6 +298,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
   - tuned text
 - added miniwrite/ministyle as peer dependencies to package.json
 
+[7.0.0]: https://github.com/timbeadle/tv4-reporter/compare/6.0.0...7.0.0
 [6.0.0]: https://github.com/timbeadle/tv4-reporter/compare/5.0.2...6.0.0
 [5.0.2]: https://github.com/timbeadle/tv4-reporter/compare/5.0.1...5.0.2
 [5.0.1]: https://github.com/timbeadle/tv4-reporter/compare/5.0.0...5.0.1
