@@ -2,6 +2,26 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [6.1.0] - 2024-03-05
+### Added
+- `versioning-strategy: increase` in dependabot.yml
+- `packageRules`, `rangeStrategy`, `transitiveRemediation` in renovate.json
+
+### Updated
+- Refactored a couple of lines to satisfy new eslint rules
+- @snyk/protect@1.1282.0
+- @types/jsonpointer@4.0.2
+- eslint-config-xo@0.44.0
+- eslint-plugin-import@2.29.1
+- eslint@8.57.0
+- ls-engines@0.9.1
+- prettier@3.2.5
+- tv4@1.3.0
+- actions/setup-node@v4
+- github/codeql-action/init@v3
+- github/codeql-action/autobuild@v3
+- github/codeql-action/analyze@v3
+
 ## [6.0.0] - 2023-09-22
 ### Updated
 - BREAKING: NodeJS v14.0.0 is now the minimum supported version
@@ -288,6 +308,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
   - tuned text
 - added miniwrite/ministyle as peer dependencies to package.json
 
+[6.1.0]: https://github.com/timbeadle/tv4-reporter/compare/6.0.0...6.1.0
 [6.0.0]: https://github.com/timbeadle/tv4-reporter/compare/5.0.2...6.0.0
 [5.0.2]: https://github.com/timbeadle/tv4-reporter/compare/5.0.1...5.0.2
 [5.0.1]: https://github.com/timbeadle/tv4-reporter/compare/5.0.0...5.0.1
