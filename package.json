@@ -47,6 +47,8 @@
   },
   "devDependencies": {
     "@types/jsonpointer": "^4.0.2",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.57.0",
     "eslint-config-xo": "^0.44.0",
     "eslint-plugin-import": "2.29.1",
@@ -64,5 +66,10 @@
   "volta": {
     "node": "16.20.2",
     "npm": "9.9.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
