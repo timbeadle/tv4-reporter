@@ -28,7 +28,7 @@
   ],
   "main": "lib/reporter.js",
   "engines": {
-    "node": ">= 16.14"
+    "node": ">= 18"
   },
   "scripts": {
     "test": "npm run test:snyk && npm run test:lint && npm run test:engines",
@@ -64,8 +64,8 @@
   },
   "snyk": true,
   "volta": {
-    "node": "16.20.2",
-    "npm": "9.9.3"
+    "node": "18.20.2",
+    "npm": "10.7.0"
   },
   "config": {
     "commitizen": {
