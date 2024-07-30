@@ -46,7 +46,7 @@
     "miniwrite": "~0.1.4"
   },
   "devDependencies": {
-    "@types/jsonpointer": "^4.0.0",
+    "@types/jsonpointer": "^4.0.2",
     "eslint": "^7.32.0",
     "eslint-config-xo": "^0.39.0",
     "eslint-plugin-import": "^2.28.1",
