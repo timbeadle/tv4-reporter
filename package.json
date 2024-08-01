@@ -28,7 +28,7 @@
   ],
   "main": "lib/reporter.js",
   "engines": {
-    "node": ">= 18"
+    "node": ">= 18.20.4"
   },
   "scripts": {
     "test": "npm run test:snyk && npm run test:lint && npm run test:engines",
@@ -64,7 +64,7 @@
   },
   "snyk": true,
   "volta": {
-    "node": "18.20.2",
+    "node": "18.20.4",
     "npm": "10.8.2"
   },
   "config": {
