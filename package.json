@@ -47,7 +47,7 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.1.0",
-    "@eslint/js": "^9.10.0",
+    "@eslint/js": "^9.11.0",
     "@types/jsonpointer": "^4.0.2",
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
