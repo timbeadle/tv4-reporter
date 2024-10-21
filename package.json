@@ -34,7 +34,7 @@
     "test": "npm run test:snyk && npm run test:lint && npm run test:engines",
     "test:ci": "npm run test:lint && npm run test:engines",
     "test:engines": "ls-engines",
-    "test:lint": "xo lib/*.js",
+    "test:lint": "xo xo.config.cjs lib/*.js",
     "test:snyk": "snyk test --dev",
     "snyk-protect": "snyk-protect",
     "prepare": "npm run snyk-protect"
