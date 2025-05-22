@@ -5,7 +5,6 @@
 [![Build Status](https://github.com/timbeadle/tv4-reporter/workflows/Node.js%20CI/badge.svg)](https://github.com/timbeadle/tv4-reporter)
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
 [![Code Climate](https://codeclimate.com/github/timbeadle/tv4-reporter/badges/gpa.svg)](https://codeclimate.com/github/timbeadle/tv4-reporter)
-[![DepShield Badge](https://depshield.sonatype.org/badges/timbeadle/tv4-reporter/depshield.svg)](https://depshield.github.io)
 [![Known Vulnerabilities](https://snyk.io/test/github/timbeadle/tv4-reporter/badge.svg)](https://snyk.io/test/github/timbeadle/tv4-reporter)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
