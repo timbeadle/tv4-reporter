@@ -9,5 +9,7 @@ module.exports = {
 		'unicorn/prefer-module': 0,
 		'unicorn/prefer-string-replace-all': 0,
 		'unicorn/prevent-abbreviations': 0,
+		'@stylistic/object-curly-spacing': ['error', 'always'],
+		'@stylistic/arrow-parens': ['error', 'always'],
 	},
 };
