@@ -2,6 +2,22 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [8.0.0] - 2025-08-05
+### Added
+- xo
+- NodeJS 22, 24 test runs
+- Commitizen badge
+
+### Updated
+- @snyk/protect@1.1298.2
+- ls-engines@0.9.3
+- prettier@3.6.2
+
+### Removed
+- ESLint
+- NodeJS 16, 18 support & test runs
+- DepShield badge (obsolete)
+
 ## [7.1.0] - 2024-03-05
 ### Added
 - `versioning-strategy: increase` in dependabot.yml
@@ -319,6 +335,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
   - tuned text
 - added miniwrite/ministyle as peer dependencies to package.json
 
+[8.0.0]: https://github.com/timbeadle/tv4-reporter/compare/7.1.0...8.0.0
 [7.1.0]: https://github.com/timbeadle/tv4-reporter/compare/7.0.0...7.1.0
 [7.0.0]: https://github.com/timbeadle/tv4-reporter/compare/6.0.0...7.0.0
 [6.0.0]: https://github.com/timbeadle/tv4-reporter/compare/5.0.2...6.0.0
