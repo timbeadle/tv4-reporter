@@ -41,6 +41,7 @@
   },
   "dependencies": {
     "@snyk/protect": "^1.1301.0",
+    "@types/node": "^24.10.1",
     "jsonpointer": "^5.0.1",
     "ministyle": "~0.1.4",
     "miniwrite": "~0.1.4"
