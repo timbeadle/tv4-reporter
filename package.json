@@ -41,13 +41,13 @@
   },
   "dependencies": {
     "@snyk/protect": "^1.1301.0",
-    "@types/node": "^24.10.1",
     "jsonpointer": "^5.0.1",
     "ministyle": "~0.1.4",
     "miniwrite": "~0.1.4"
   },
   "devDependencies": {
     "@types/jsonpointer": "^4.0.2",
+    "@types/node": "^24.10.1",
     "commitizen": "^4.3.1",
     "cz-conventional-changelog": "^3.3.0",
     "globals": "^16.5.0",
