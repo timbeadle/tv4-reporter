@@ -63,7 +63,7 @@
   "snyk": true,
   "volta": {
     "node": "20.19.5",
-    "npm": "11.6.2"
+    "npm": "11.6.3"
   },
   "config": {
     "commitizen": {
