@@ -1,7 +1,7 @@
 {
   "name": "tv4-reporter",
   "description": "Report Tiny Validator tv4 results in usable formats",
-  "version": "8.0.0",
+  "version": "8.1.0",
   "homepage": "https://github.com/timbeadle/tv4-reporter",
   "author": {
     "name": "Bart van der Schoor",

@@ -2,6 +2,26 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [8.1.0] - 2026-01-27
+### Added
+- @types/node
+- Node 25.x to test matrix
+
+### Updated
+- @snyk/protect@1.1302.1
+- @types/node@25.0.10
+- globals@17.2.0
+- ls-engines@0.9.4
+- prettier@3.8.1
+- xo@1.2.3
+- (engines) node@20.20.0
+- (Volta) node@20.20.0
+- (Volta) npm@11.8.0
+
+### Removed
+- commitizen
+- cz-conventional-changelog
+
 ## [8.0.0] - 2025-08-05
 ### Added
 - xo
@@ -335,6 +355,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
   - tuned text
 - added miniwrite/ministyle as peer dependencies to package.json
 
+[8.1.0]: https://github.com/timbeadle/tv4-reporter/compare/8.0.0...8.1.0
 [8.0.0]: https://github.com/timbeadle/tv4-reporter/compare/7.1.0...8.0.0
 [7.1.0]: https://github.com/timbeadle/tv4-reporter/compare/7.0.0...7.1.0
 [7.0.0]: https://github.com/timbeadle/tv4-reporter/compare/6.0.0...7.0.0
