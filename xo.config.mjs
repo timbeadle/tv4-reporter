@@ -1,5 +1,9 @@
-export default [
+const config = [
 	{
+		files: [
+			'xo.config.mjs',
+			'lib/*.js',
+		],
 		rules: {
 			'arrow-parens': 0,
 			'import/extensions': 0,
@@ -15,3 +19,5 @@ export default [
 		},
 	},
 ];
+
+export default config;
