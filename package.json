@@ -34,7 +34,7 @@
     "test": "npm run test:snyk && npm run test:lint && npm run test:engines",
     "test:ci": "npm run test:lint && npm run test:engines",
     "test:engines": "ls-engines",
-    "test:lint": "xo xo.config.cjs lib/*.js",
+    "test:lint": "xo",
     "test:snyk": "snyk test --dev",
     "snyk-protect": "snyk-protect",
     "prepare": "npm run snyk-protect"
@@ -52,7 +52,7 @@
     "ls-engines": "^0.10.0",
     "prettier": "3.8.1",
     "tv4": "1.3.0",
-    "xo": "^1.2.3"
+    "xo": "^2.0.2"
   },
   "peerDependencies": {
     "ministyle": "~0.1.4",
