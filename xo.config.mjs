@@ -3,10 +3,12 @@ const config = [
 		files: [
 			'xo.config.mjs',
 			'lib/*.js',
+			'*.md',
 		],
 		rules: {
 			'arrow-parens': 0,
 			'import/extensions': 0,
+			'markdown/no-missing-label-refs': 0,
 			'n/prefer-global/process': 0,
 			'object-curly-spacing': 0,
 			'unicorn/no-anonymous-default-export': 0,

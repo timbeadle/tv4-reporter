@@ -99,7 +99,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - miniwrite@0.1.4
 - prettier@3.0.0
 
-## Removed
+### Removed
 - Node 19.x test run
 
 ## [5.0.1] - 2023-03-10
@@ -114,7 +114,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - ls-engines@0.8.1
 - prettier@2.8.4
 
-## Removed
+### Removed
 - jsonpointer.js
 
 ## [5.0.0] - 2022-11-20
@@ -134,7 +134,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - github/codeql-action/autobuild@v2
 - github/codeql-action/analyze@v2
 
-## Removed
+### Removed
 - NodeJS v10 support
 - xo
 - DavidDM (dependency analysis)
