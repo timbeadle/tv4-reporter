@@ -47,7 +47,7 @@
   },
   "devDependencies": {
     "@types/jsonpointer": "^4.0.2",
-    "@types/node": "^25.9.3",
+    "@types/node": "^25.9.4",
     "globals": "^17.7.0",
     "ls-engines": "^0.10.1",
     "prettier": "3.8.4",
