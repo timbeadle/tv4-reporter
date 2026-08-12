@@ -33,9 +33,11 @@
   "scripts": {
     "test": "npm run test:snyk && npm run test:lint && npm run test:engines",
     "test:ci": "npm run test:lint && npm run test:engines",
+    "test:coverage": "nyc --reporter=lcov npm run test:unit",
     "test:engines": "ls-engines",
     "test:lint": "xo xo.config.cjs lib/*.js",
     "test:snyk": "snyk test --dev",
+    "test:unit": "mocha test/*.spec.js",
     "snyk-protect": "snyk-protect",
     "prepare": "npm run snyk-protect"
   },
