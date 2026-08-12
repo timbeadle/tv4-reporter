@@ -31,8 +31,8 @@
     "node": ">= 20.20.2"
   },
   "scripts": {
-    "test": "npm run test:snyk && npm run test:lint && npm run test:engines",
-    "test:ci": "npm run test:lint && npm run test:engines",
+    "test": "npm run test:snyk && npm run test:lint && npm run test:engines && npm run test:unit",
+    "test:ci": "npm run test:lint && npm run test:engines && npm run test:unit",
     "test:coverage": "nyc --reporter=lcov npm run test:unit",
     "test:engines": "ls-engines",
     "test:lint": "xo",
