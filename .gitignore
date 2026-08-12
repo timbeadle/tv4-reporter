@@ -1,6 +1,8 @@
 node_modules
 npm-debug.log
 tmp
+.nyc_output
+coverage
 
 /.idea
 /*.tgz
