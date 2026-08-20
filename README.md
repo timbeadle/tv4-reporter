@@ -1,5 +1,7 @@
 # tv4-reporter
 
+⚠️ This project is no longer actively maintained.
+
 [![npm version](https://img.shields.io/npm/v/tv4-reporter.svg)](https://www.npmjs.com/package/tv4-reporter)
 [![Downloads/month](https://img.shields.io/npm/dm/tv4-reporter.svg)](https://www.npmjs.com/package/tv4-reporter)
 [![Build Status](https://github.com/timbeadle/tv4-reporter/workflows/Node.js%20CI/badge.svg)](https://github.com/timbeadle/tv4-reporter)
@@ -107,8 +109,9 @@ Report output and styling done via extensible mini-api's:
 | 3.x     | 8.0.0         | Obsolete    |
 | 4.x     | 10.0.0        | Obsolete    |
 | 5.x     | 12.0.0        | Obsolete    |
-| 6.x     | 14.0.0        | Security    |
-| 7.x     | 16.14.0       | Current     |
+| 6.x     | 14.0.0        | Obsolete    |
+| 7.x     | 16.14.0       | Obsolete    |
+| 8.x     | 20.20.2       | Current     |
 
 ## Release history
 
